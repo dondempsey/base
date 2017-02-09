@@ -37,8 +37,7 @@ h1 {
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	/*font-size: 2.625em;*/
-  font-size: 2.500em;
+  	font-size: 2.500em;
 	line-height: 1.1;
 }
 h3 {
@@ -53,7 +52,7 @@ h4 {
 	font-size: 1em;
 	line-height: 1.1;
 	text-transform: uppercase;
-  letter-spacing: .05em;
+  	letter-spacing: .05em;
 }
 h5 {
 	font-family: 'Roboto', sans-serif;
@@ -196,7 +195,7 @@ a:active {
 .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
 
 pre {
-		background: none repeat scroll 0 0 #f7f7f7;
+    background: none repeat scroll 0 0 #f7f7f7;
     color: #222;
     line-height: 18px;
     margin-bottom: 18px;
