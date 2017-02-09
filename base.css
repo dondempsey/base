@@ -1,11 +1,12 @@
+/*
+ _                                   
+| |__   __ _ ___  ___    ___ ___ ___ 
+| '_ \ / _` / __|/ _ \  / __/ __/ __|
+| |_) | (_| \__ \  __/ | (__\__ \__ \
+|_.__/ \__,_|___/\___|  \___|___/___/                                                                             
+For use in your web development courses. This file is required when work with your online lessons
 
- ____                    ____ ____ ____  
-| __ )  __ _ ___  ___   / ___/ ___/ ___| 
-|  _ \ / _` / __|/ _ \ | |   \___ \___ \ 
-| |_) | (_| \__ \  __/ | |___ ___) |__) |
-|____/ \__,_|___/\___|  \____|____/____/ 
-                                         
-/*For use in your web development courses. This file is required when work with your online lessons*/
+*/
 
 /* ------- [ Border Box ] -------- */
 
@@ -354,5 +355,3 @@ tr { page-break-inside: avoid; }
 a { text-decoration: none; color: black; }
 	
 } /* END print media */
-
-
