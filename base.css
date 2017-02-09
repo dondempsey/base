@@ -1,11 +1,6 @@
-/*   
-Theme Name:   Base 2017 (basic) 
-Theme URI:    http://dondempsey.com/base2016
-Description:  A basic collection for CSS for web development. Based on HTML 5 Boilerplate. https://html5boilerplate.com/
-Author:       Don Dempsey
-Author URI:   http://dondempsey.com/base2016
-Version:      0.4
-*/
+
+/*For use in your web development courses. This file is required when work with your online lessons*/
+
 
 
 /* ------- [ Border Box ] -------- */
@@ -31,7 +26,7 @@ body {
 /* ------- [ Typography ] ------- */
 
 p { font-size: 1em; margin: 0 0 20px 0;}
-h2, h3, h4, h5, h6 { font-style: normal; margin: 0 0 0 0; color: #2F2F2F; }
+h2, h3, h4, h5, h6 { font-style: normal; margin: 0 0 20px 0; color: #2F2F2F; }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
@@ -155,11 +150,10 @@ a:active {
   margin-right: 0;
 }
 
-
 /* ------- [ Misc HTML ] -------  */
 
 .clearfix {
-	clear: both;
+  clear: both;
   display: block;
 }
 .clearfix:after, .container:after {
@@ -202,7 +196,7 @@ a:active {
 .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
 
 pre {
-    background: none repeat scroll 0 0 #f7f7f7;
+		background: none repeat scroll 0 0 #f7f7f7;
     color: #222;
     line-height: 18px;
     margin-bottom: 18px;
@@ -306,7 +300,6 @@ tr:hover {
 td {
 	border-right: 1px solid #777;
 }
-
 
 
 /* ------- [ User Added CSS ] ------- */
