@@ -1,13 +1,20 @@
 /*   
-Theme Name:   Base 2016 (basic) 
+Theme Name:   Base 2017 (basic) 
 Theme URI:    http://dondempsey.com/base2016
 Description:  A basic collection for CSS for web development. Based on HTML 5 Boilerplate. https://html5boilerplate.com/
 Author:       Don Dempsey
 Author URI:   http://dondempsey.com/base2016
-Version:      0.3
+Version:      0.4
 */
 
 
+/* ------- [ Border Box ] -------- */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
 
 /* ------- [ Basic Styles ] -------- */
 
