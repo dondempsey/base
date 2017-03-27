@@ -17,68 +17,55 @@ For use in your web development courses. This file is required when working with
 }
 
 /* ------- [ Basic Styles ] -------- */
+html {
+	font-size: 100%;
+}
 
 body {
-	color: #2F2F2F;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	line-height: 1.6em;
-	font-size: 100%;
+	line-height: 1.45em;
+	color: #2F2F2F;
+
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 }
 
 /* ------- [ Typography ] ------- */
 
 p { 
-	font-size: 1em; 
-	margin: 0 0 20px 0;
+	margin: 0 0 1.3em 0;
 }
 
-h2, h3, h4, h5, h6 { 
-	font-style: normal; 
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
 	margin: 0 0 20px 0; 
-	color: #2F2F2F; }
+	line-height: 1.2;
+	color: #2F2F2F; 
+}
 
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 3.250em;
-	line-height: 1.1;
+	margin-top: 0;
+	font-size: 3.157em;
 }
 h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-  font-size: 2.500em;
+  	font-size: 2.369em;
 	line-height: 1.1;
 }
 h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 1.500em;
-	line-height: 1.1;
+	font-size: 1.777em;
 }
 h4 {
-	font-family: 'Roboto', sans-serif;
+	font-size: 1.333em;
 	font-weight: 900;
-	font-size: 1em;
-	line-height: 1.1;
 	text-transform: uppercase;
-  letter-spacing: .05em;
-}
-h5 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 1em;
-	line-height: 1.1;
-}
-h6 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-size: 1em;
-	line-height: 1.1;
+  	letter-spacing: .05em;
 }
 
+.small {
+	font-size: 0.75em;
+}
 
 /* -------- [ Site Links ] -------- */
 a:link {
