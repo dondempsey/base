@@ -9,26 +9,23 @@ For use in your web development courses. This file is required when working with
 */
 
 /* ------- [ Border Box ] -------- */
+/* apply a natural box layout model to all elements, but allowing components to change */
 
-*, *:before, *:after {
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
+html {
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /* ------- [ Basic Styles ] -------- */
-html {
-	font-size: 100%;
-}
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-style: normal;
+	font-size: 100%;
 	font-weight: 100;
 	line-height: 1.45em;
 	color: #2F2F2F;
-
-	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 }
 
 /* ------- [ Typography ] ------- */
