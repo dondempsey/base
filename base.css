@@ -303,16 +303,16 @@ td {
 /* ------- [ User Added CSS ] ------- */
 
 .container {
-  display: block;
+  	display: block;
 	width: 940px;
 	margin-right: auto;
 	margin-left: auto;
-  overflow: hidden;
-  clear: both;
+  	overflow: hidden;
+  	clear: both;
 }
 
 .highlight {
-  color: #ffda96;
+  background-color: #ffda96;
 }
 
 
