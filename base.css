@@ -125,16 +125,6 @@ a:active {
   margin-right: 0;
 }
 
-/* 5 Columns */
-.columns_5 {
-  width: 172px;
-  float: left;
-  margin-right: 20px;
-}
-.columns_5:last-of-type {
-  margin-right: 0;
-}
-
 /* 6 Columns */
 .columns_6 {
   width: 140px;
@@ -142,6 +132,16 @@ a:active {
   margin-right: 20px;
 }
 .columns_6:last-of-type {
+  margin-right: 0;
+}
+
+/* 12 Columns */
+.columns_6 {
+  width: 60px;
+  float: left;
+  margin-right: 20px;
+}
+.columns_12:last-of-type {
   margin-right: 0;
 }
 
