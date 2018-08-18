@@ -3,7 +3,8 @@
  | _ ) /_\ / __| __| / __/ __/ __|
  | _ \/ _ \\__ \ _| | (__\__ \__ \
  |___/_/ \_\___/___(_)___|___/___/
- For use in your web development courses. This file is required when working with your online lessons.
+ styles common to all pages
+ For use in your web development courses. This file is required when working with your online lessons and projects.
 
 */
 
@@ -75,8 +76,6 @@ h6 {
 .large-text {
 	font-size: 1.2em;
 }
-
-
 
 /* -------- [ Site Links ] -------- */
 a:link {
