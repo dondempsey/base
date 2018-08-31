@@ -1,5 +1,5 @@
 # base.css <img src="http://www.dondempsey.com/assets/dd-logo-red.svg" width="30px" align="right">
-...styles common to all pages
+...styles common to all pages.
 
 base.css for web development class. You will need to use this file when working on your online lessons and creating your final project.
 
