@@ -358,8 +358,10 @@ td {
 
 /* ------- [ Image ] ------- */
 img {
+	width: 100%;
+	display: block;
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 /* ------- [ Divider ] ------- */
