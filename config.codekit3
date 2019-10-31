@@ -7,7 +7,7 @@
 		"uuidString": "AEDB32A0-417A-48B3-A9DB-B995C4C1CB5C"
 		}
 	],
-"creatorBuild": "31927",
+"creatorBuild": "31934",
 "files": {
 	"/base.css": {
 		"aP": 1,
@@ -1994,7 +1994,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
